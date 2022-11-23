@@ -14,15 +14,10 @@ where the systematic part is decomposed in several contributions:
 {\rm Cov}_{ij}^{\rm syst}= {\rm Cov}_{ij}^{\rm met}+ {\rm Cov}_{ij}^{\rm young}+ {\rm Cov}_{ij}^{\rm model}
 ```
 
-where:
-- $`{\rm Cov}_{ij}^{\rm met}`$ is the contribution to the covariance matrix due to uncertainty in the estimate fo the stellar metallicity;
-- $`{\rm Cov}_{ij}^{\rm young}`$ is the part of the covariance matrix affected by an eventual residual young component in galaxy spectra (see <a href="https://ui.adsabs.harvard.edu/abs/2018ApJ...868...84M/abstract">Moresco et al. (2018)</a>);
-- $`{\rm Cov}_{ij}^{\rm model}`$ is the contribution to the covariance matrix arising from modelling, that, in turn, can be decomposed in:
+where the model term is also decomposed in the following terms
+
 ```math
 {\rm Cov}_{ij}^{\rm model}={\rm Cov}_{ij}^{\rm SFH}+{\rm Cov}_{ij}^{\rm IMF}+{\rm Cov}_{ij}^{\rm st. lib.}+{\rm Cov}_{ij}^{\rm SPS}
 ```
-where:
-- $`{\rm Cov}_{ij}^{\rm SFH}`$ is the contribution to the model covariance matrix due to uncertainty in star formation history;
-- $`{\rm Cov}_{ij}^{\rm IMF}`$ is the contribution to the model covariance matrix due to uncertainty in the IMF adopted;
-- $`{\rm Cov}_{ij}^{\rm st. lib.}`$ is the contribution to the model covariance matrix due to uncertainty in the stellar library adopted;
-- $`{\rm Cov}_{ij}^{\rm SPS}`$ is the contribution to the model covariance matrix due to uncertainty in the stellar population synthesis model adopted.
+
+### for detials of each term see <a href="https://ui.adsabs.harvard.edu/abs/2020ApJ...898...82M/abstract">Moresco et al. (2020)</a>
