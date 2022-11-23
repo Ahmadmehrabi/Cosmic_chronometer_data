@@ -8,7 +8,7 @@
 ```math
 {\rm Cov}_{ij}= {\rm Cov}_{ij}^{\rm stat}+ {\rm Cov}_{ij}^{\rm syst}
 ```
-where $`{\rm Cov}_{ij}^{\rm syst}`$, for simplicity and transparency, is decomposed in several contributions:
+where the systematic part is decomposed in several contributions:
 
 ```math
 {\rm Cov}_{ij}^{\rm syst}= {\rm Cov}_{ij}^{\rm met}+ {\rm Cov}_{ij}^{\rm young}+ {\rm Cov}_{ij}^{\rm model}
